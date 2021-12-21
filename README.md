@@ -2,73 +2,15 @@
 **Startup for reading lovers**
 
 
-**Цель исследования:**
+**Research purpose:**
 
-сформулировать ценностное предложение для нового продукта сервиса для чтения книг по подписке.
+formulate a value proposition for a new service product for reading books by subscription.
 
-**Задача исследования:**
+**Research task:**
 
-проанализировать базу данных. 
+analyze the database. 
 
-**Используемые библиотеки и инструменты**: SQL, pandas, create_engine. 
-
-**Описание данных:** 
-
-*Таблица books*
-
-Содержит данные о книгах:
-
-book_id — идентификатор книги;
-
-author_id — идентификатор автора;
-
-title — название книги;
-
-num_pages — количество страниц;
-
-publication_date — дата публикации книги;
-
-publisher_id — идентификатор издателя.
+**Libraries and tools**: SQL, pandas, create_engine. 
 
 
-*Таблица authors*
-
-Содержит данные об авторах:
-
-author_id — идентификатор автора;
-
-author — имя автора.
-
-*Таблица publishers*
-
-Содержит данные об издательствах:
-
-publisher_id — идентификатор издательства;
-
-publisher — название издательства;
-
-*Таблица ratings*
-
-Содержит данные о пользовательских оценках книг:
-
-rating_id — идентификатор оценки;
-
-book_id — идентификатор книги;
-
-username — имя пользователя, оставившего оценку;
-
-rating — оценка книги.
-
-*Таблица reviews*
-
-Содержит данные о пользовательских обзорах:
-
-review_id — идентификатор обзора;
-
-book_id — идентификатор книги;
-
-username — имя автора обзора;
-
-text — текст обзора.
-
-**Данные предоставлены**: Practicum by Yandex
+**Data provided**: Practicum by Yandex
